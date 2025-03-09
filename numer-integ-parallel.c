@@ -29,7 +29,7 @@ int main() {
 
     for (int t = 0; t < 3; t++) {
         int num_threads = thread_counts[t];
-        total_time = 0.0; 
+        total_time = 0
         
         printf("\nRunning with %d threads:\n", num_threads);
         
