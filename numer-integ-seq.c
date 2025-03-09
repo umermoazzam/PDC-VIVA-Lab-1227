@@ -2,7 +2,6 @@
 #include <math.h>
 #include <time.h>
 
-// Function to integrate: f(x) = x^2
 double f(double x) {
     return x * x;
 }
@@ -21,7 +20,7 @@ double trapezoidal_integral(double a, double b, int n) {
 
 int main() {
     double a = 0.0, b = 10.0;
-    int n = 1000000; // Number of intervals
+    int n = 1000000; 
     clock_t start, end;
     double total_time = 0.0, execution_time;
 
